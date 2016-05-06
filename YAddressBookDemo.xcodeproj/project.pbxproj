@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3DBF2A1CDC677A00C732CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF291CDC677A00C732CA /* main.m */; };
+		DB3DBF2D1CDC677A00C732CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF2C1CDC677A00C732CA /* AppDelegate.m */; };
+		DB3DBF301CDC677A00C732CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF2F1CDC677A00C732CA /* ViewController.m */; };
+		DB3DBF331CDC677A00C732CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3DBF311CDC677A00C732CA /* Main.storyboard */; };
+		DB3DBF351CDC677A00C732CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3DBF341CDC677A00C732CA /* Assets.xcassets */; };
+		DB3DBF381CDC677A00C732CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3DBF361CDC677A00C732CA /* LaunchScreen.storyboard */; };
+		DB3DBF431CDC677A00C732CA /* YAddressBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF421CDC677A00C732CA /* YAddressBookDemoTests.m */; };
+		DB3DBF4E1CDC677A00C732CA /* YAddressBookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF4D1CDC677A00C732CA /* YAddressBookDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3DBF3F1CDC677A00C732CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3DBF1D1CDC677A00C732CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3DBF241CDC677A00C732CA;
+			remoteInfo = YAddressBookDemo;
+		};
+		DB3DBF4A1CDC677A00C732CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3DBF1D1CDC677A00C732CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3DBF241CDC677A00C732CA;
+			remoteInfo = YAddressBookDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3DBF251CDC677A00C732CA /* YAddressBookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAddressBookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3DBF291CDC677A00C732CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3DBF2B1CDC677A00C732CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3DBF2C1CDC677A00C732CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3DBF2E1CDC677A00C732CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3DBF2F1CDC677A00C732CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB3DBF321CDC677A00C732CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3DBF341CDC677A00C732CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3DBF371CDC677A00C732CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3DBF391CDC677A00C732CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3DBF3E1CDC677A00C732CA /* YAddressBookDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAddressBookDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3DBF421CDC677A00C732CA /* YAddressBookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAddressBookDemoTests.m; sourceTree = "<group>"; };
+		DB3DBF441CDC677A00C732CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3DBF491CDC677A00C732CA /* YAddressBookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAddressBookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3DBF4D1CDC677A00C732CA /* YAddressBookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAddressBookDemoUITests.m; sourceTree = "<group>"; };
+		DB3DBF4F1CDC677A00C732CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3DBF221CDC677A00C732CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3DBF3B1CDC677A00C732CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3DBF461CDC677A00C732CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3DBF1C1CDC677A00C732CA = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF271CDC677A00C732CA /* YAddressBookDemo */,
+				DB3DBF411CDC677A00C732CA /* YAddressBookDemoTests */,
+				DB3DBF4C1CDC677A00C732CA /* YAddressBookDemoUITests */,
+				DB3DBF261CDC677A00C732CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3DBF261CDC677A00C732CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF251CDC677A00C732CA /* YAddressBookDemo.app */,
+				DB3DBF3E1CDC677A00C732CA /* YAddressBookDemoTests.xctest */,
+				DB3DBF491CDC677A00C732CA /* YAddressBookDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3DBF271CDC677A00C732CA /* YAddressBookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF2B1CDC677A00C732CA /* AppDelegate.h */,
+				DB3DBF2C1CDC677A00C732CA /* AppDelegate.m */,
+				DB3DBF2E1CDC677A00C732CA /* ViewController.h */,
+				DB3DBF2F1CDC677A00C732CA /* ViewController.m */,
+				DB3DBF311CDC677A00C732CA /* Main.storyboard */,
+				DB3DBF341CDC677A00C732CA /* Assets.xcassets */,
+				DB3DBF361CDC677A00C732CA /* LaunchScreen.storyboard */,
+				DB3DBF391CDC677A00C732CA /* Info.plist */,
+				DB3DBF281CDC677A00C732CA /* Supporting Files */,
+			);
+			path = YAddressBookDemo;
+			sourceTree = "<group>";
+		};
+		DB3DBF281CDC677A00C732CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF291CDC677A00C732CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB3DBF411CDC677A00C732CA /* YAddressBookDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF421CDC677A00C732CA /* YAddressBookDemoTests.m */,
+				DB3DBF441CDC677A00C732CA /* Info.plist */,
+			);
+			path = YAddressBookDemoTests;
+			sourceTree = "<group>";
+		};
+		DB3DBF4C1CDC677A00C732CA /* YAddressBookDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF4D1CDC677A00C732CA /* YAddressBookDemoUITests.m */,
+				DB3DBF4F1CDC677A00C732CA /* Info.plist */,
+			);
+			path = YAddressBookDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3DBF241CDC677A00C732CA /* YAddressBookDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3DBF521CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemo" */;
+			buildPhases = (
+				DB3DBF211CDC677A00C732CA /* Sources */,
+				DB3DBF221CDC677A00C732CA /* Frameworks */,
+				DB3DBF231CDC677A00C732CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAddressBookDemo;
+			productName = YAddressBookDemo;
+			productReference = DB3DBF251CDC677A00C732CA /* YAddressBookDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3DBF3D1CDC677A00C732CA /* YAddressBookDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3DBF551CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemoTests" */;
+			buildPhases = (
+				DB3DBF3A1CDC677A00C732CA /* Sources */,
+				DB3DBF3B1CDC677A00C732CA /* Frameworks */,
+				DB3DBF3C1CDC677A00C732CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3DBF401CDC677A00C732CA /* PBXTargetDependency */,
+			);
+			name = YAddressBookDemoTests;
+			productName = YAddressBookDemoTests;
+			productReference = DB3DBF3E1CDC677A00C732CA /* YAddressBookDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3DBF481CDC677A00C732CA /* YAddressBookDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3DBF581CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemoUITests" */;
+			buildPhases = (
+				DB3DBF451CDC677A00C732CA /* Sources */,
+				DB3DBF461CDC677A00C732CA /* Frameworks */,
+				DB3DBF471CDC677A00C732CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3DBF4B1CDC677A00C732CA /* PBXTargetDependency */,
+			);
+			name = YAddressBookDemoUITests;
+			productName = YAddressBookDemoUITests;
+			productReference = DB3DBF491CDC677A00C732CA /* YAddressBookDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3DBF1D1CDC677A00C732CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YueWen;
+				TargetAttributes = {
+					DB3DBF241CDC677A00C732CA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DB3DBF3D1CDC677A00C732CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DB3DBF241CDC677A00C732CA;
+					};
+					DB3DBF481CDC677A00C732CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DB3DBF241CDC677A00C732CA;
+					};
+				};
+			};
+			buildConfigurationList = DB3DBF201CDC677A00C732CA /* Build configuration list for PBXProject "YAddressBookDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3DBF1C1CDC677A00C732CA;
+			productRefGroup = DB3DBF261CDC677A00C732CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3DBF241CDC677A00C732CA /* YAddressBookDemo */,
+				DB3DBF3D1CDC677A00C732CA /* YAddressBookDemoTests */,
+				DB3DBF481CDC677A00C732CA /* YAddressBookDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3DBF231CDC677A00C732CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3DBF381CDC677A00C732CA /* LaunchScreen.storyboard in Resources */,
+				DB3DBF351CDC677A00C732CA /* Assets.xcassets in Resources */,
+				DB3DBF331CDC677A00C732CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3DBF3C1CDC677A00C732CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3DBF471CDC677A00C732CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3DBF211CDC677A00C732CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3DBF301CDC677A00C732CA /* ViewController.m in Sources */,
+				DB3DBF2D1CDC677A00C732CA /* AppDelegate.m in Sources */,
+				DB3DBF2A1CDC677A00C732CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3DBF3A1CDC677A00C732CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3DBF431CDC677A00C732CA /* YAddressBookDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3DBF451CDC677A00C732CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3DBF4E1CDC677A00C732CA /* YAddressBookDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3DBF401CDC677A00C732CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3DBF241CDC677A00C732CA /* YAddressBookDemo */;
+			targetProxy = DB3DBF3F1CDC677A00C732CA /* PBXContainerItemProxy */;
+		};
+		DB3DBF4B1CDC677A00C732CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3DBF241CDC677A00C732CA /* YAddressBookDemo */;
+			targetProxy = DB3DBF4A1CDC677A00C732CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3DBF311CDC677A00C732CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3DBF321CDC677A00C732CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3DBF361CDC677A00C732CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3DBF371CDC677A00C732CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3DBF501CDC677A00C732CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB3DBF511CDC677A00C732CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3DBF531CDC677A00C732CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YAddressBookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB3DBF541CDC677A00C732CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YAddressBookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB3DBF561CDC677A00C732CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YAddressBookDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAddressBookDemo.app/YAddressBookDemo";
+			};
+			name = Debug;
+		};
+		DB3DBF571CDC677A00C732CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YAddressBookDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAddressBookDemo.app/YAddressBookDemo";
+			};
+			name = Release;
+		};
+		DB3DBF591CDC677A00C732CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YAddressBookDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YAddressBookDemo;
+			};
+			name = Debug;
+		};
+		DB3DBF5A1CDC677A00C732CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YAddressBookDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YAddressBookDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3DBF201CDC677A00C732CA /* Build configuration list for PBXProject "YAddressBookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3DBF501CDC677A00C732CA /* Debug */,
+				DB3DBF511CDC677A00C732CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3DBF521CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3DBF531CDC677A00C732CA /* Debug */,
+				DB3DBF541CDC677A00C732CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3DBF551CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3DBF561CDC677A00C732CA /* Debug */,
+				DB3DBF571CDC677A00C732CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3DBF581CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3DBF591CDC677A00C732CA /* Debug */,
+				DB3DBF5A1CDC677A00C732CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3DBF1D1CDC677A00C732CA /* Project object */;
+}
