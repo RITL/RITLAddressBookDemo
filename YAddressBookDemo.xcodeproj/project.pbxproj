@@ -15,6 +15,11 @@
 		DB3DBF381CDC677A00C732CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3DBF361CDC677A00C732CA /* LaunchScreen.storyboard */; };
 		DB3DBF431CDC677A00C732CA /* YAddressBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF421CDC677A00C732CA /* YAddressBookDemoTests.m */; };
 		DB3DBF4E1CDC677A00C732CA /* YAddressBookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF4D1CDC677A00C732CA /* YAddressBookDemoUITests.m */; };
+		DB3DBF5C1CDC678500C732CA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3DBF5B1CDC678500C732CA /* AddressBook.framework */; };
+		DB3DBF661CDC759200C732CA /* YContactObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF651CDC759200C732CA /* YContactObject.m */; };
+		DB3DBF691CDC823800C732CA /* YContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF681CDC823800C732CA /* YContactsManager.m */; };
+		DB3DBF6C1CDC956E00C732CA /* YContactObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBF6B1CDC956E00C732CA /* YContactObjectManager.m */; };
+		DB93135B1CE02BC500A2C2F4 /* YContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB93135A1CE02BC500A2C2F4 /* YContactsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		DB3DBF491CDC677A00C732CA /* YAddressBookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAddressBookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3DBF4D1CDC677A00C732CA /* YAddressBookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAddressBookDemoUITests.m; sourceTree = "<group>"; };
 		DB3DBF4F1CDC677A00C732CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3DBF5B1CDC678500C732CA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DB3DBF641CDC759200C732CA /* YContactObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YContactObject.h; sourceTree = "<group>"; };
+		DB3DBF651CDC759200C732CA /* YContactObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YContactObject.m; sourceTree = "<group>"; };
+		DB3DBF671CDC823800C732CA /* YContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YContactsManager.h; sourceTree = "<group>"; };
+		DB3DBF681CDC823800C732CA /* YContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YContactsManager.m; sourceTree = "<group>"; };
+		DB3DBF6A1CDC956E00C732CA /* YContactObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YContactObjectManager.h; sourceTree = "<group>"; };
+		DB3DBF6B1CDC956E00C732CA /* YContactObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YContactObjectManager.m; sourceTree = "<group>"; };
+		DB9313591CE02BC500A2C2F4 /* YContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YContactsTableViewController.h; sourceTree = "<group>"; };
+		DB93135A1CE02BC500A2C2F4 /* YContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YContactsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3DBF5C1CDC678500C732CA /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 		DB3DBF1C1CDC677A00C732CA = {
 			isa = PBXGroup;
 			children = (
+				DB3DBF5B1CDC678500C732CA /* AddressBook.framework */,
 				DB3DBF271CDC677A00C732CA /* YAddressBookDemo */,
 				DB3DBF411CDC677A00C732CA /* YAddressBookDemoTests */,
 				DB3DBF4C1CDC677A00C732CA /* YAddressBookDemoUITests */,
@@ -101,6 +117,8 @@
 		DB3DBF271CDC677A00C732CA /* YAddressBookDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB9313581CE02BAC00A2C2F4 /* YViewController */,
+				DB3DBF5D1CDC67A600C732CA /* YAddressBookFile */,
 				DB3DBF2B1CDC677A00C732CA /* AppDelegate.h */,
 				DB3DBF2C1CDC677A00C732CA /* AppDelegate.m */,
 				DB3DBF2E1CDC677A00C732CA /* ViewController.h */,
@@ -138,6 +156,28 @@
 				DB3DBF4F1CDC677A00C732CA /* Info.plist */,
 			);
 			path = YAddressBookDemoUITests;
+			sourceTree = "<group>";
+		};
+		DB3DBF5D1CDC67A600C732CA /* YAddressBookFile */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DBF641CDC759200C732CA /* YContactObject.h */,
+				DB3DBF651CDC759200C732CA /* YContactObject.m */,
+				DB3DBF671CDC823800C732CA /* YContactsManager.h */,
+				DB3DBF681CDC823800C732CA /* YContactsManager.m */,
+				DB3DBF6A1CDC956E00C732CA /* YContactObjectManager.h */,
+				DB3DBF6B1CDC956E00C732CA /* YContactObjectManager.m */,
+			);
+			path = YAddressBookFile;
+			sourceTree = "<group>";
+		};
+		DB9313581CE02BAC00A2C2F4 /* YViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9313591CE02BC500A2C2F4 /* YContactsTableViewController.h */,
+				DB93135A1CE02BC500A2C2F4 /* YContactsTableViewController.m */,
+			);
+			path = YViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +242,7 @@
 		DB3DBF1D1CDC677A00C732CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Y;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = YueWen;
 				TargetAttributes = {
@@ -270,8 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3DBF691CDC823800C732CA /* YContactsManager.m in Sources */,
+				DB3DBF6C1CDC956E00C732CA /* YContactObjectManager.m in Sources */,
 				DB3DBF301CDC677A00C732CA /* ViewController.m in Sources */,
+				DB3DBF661CDC759200C732CA /* YContactObject.m in Sources */,
 				DB3DBF2D1CDC677A00C732CA /* AppDelegate.m in Sources */,
+				DB93135B1CE02BC500A2C2F4 /* YContactsTableViewController.m in Sources */,
 				DB3DBF2A1CDC677A00C732CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YAddressBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YAddressBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yue.YAddressBookDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +543,7 @@
 				DB3DBF541CDC677A00C732CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB3DBF551CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +552,7 @@
 				DB3DBF571CDC677A00C732CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB3DBF581CDC677A00C732CA /* Build configuration list for PBXNativeTarget "YAddressBookDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +561,7 @@
 				DB3DBF5A1CDC677A00C732CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
