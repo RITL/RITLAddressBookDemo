@@ -248,6 +248,7 @@
 				TargetAttributes = {
 					DB3DBF241CDC677A00C732CA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8HMFNLUC68;
 					};
 					DB3DBF3D1CDC677A00C732CA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -458,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
 				INFOPLIST_FILE = YAddressBookDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -470,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
 				INFOPLIST_FILE = YAddressBookDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
