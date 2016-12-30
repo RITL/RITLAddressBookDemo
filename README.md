@@ -1,4 +1,4 @@
-# YAdressBookDemo
+# RITLAddressBookDemo
 通过AddressBook.framework简单获取联系人的各种属性
 
 AddressBook是Apple提供给我们获取系统联系人的一个很方便类库，与其说方便，其实刚开始还是比较崩溃的，从开发文档来看，它还是偏向于C语言，并且不在ARC的控制之下，虽然在iOS9.0之后会被`Contacts.framework`替代，但在工作中要对最低版本进行兼容，了解一下这个类库还是很有必要的。这里就介绍一下获取联系人信息的那些方法，对于修改，添加删除等操作，想留在下一篇介绍AddressBookUI这个类库的时候来写一下。
