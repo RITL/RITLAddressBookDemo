@@ -5,7 +5,9 @@ AddressBook是Apple提供给我们获取系统联系人的一个很方便类库�
 
 博客:[http://blog.csdn.net/runintolove/article/details/51371996](http://blog.csdn.net/runintolove/article/details/51371996)
 <br>
-##获取权限
+
+## 获取权限
+
 iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限都需要用户授权才可以进行之后的操作，因此在获取通讯录的时候要检测一下有没有权限(这一点在定位，相机等操作上也都看出)：
 ```Objective-C
 /**
@@ -39,7 +41,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
     }
 }
 ```
+
 请求权限的方法如下:
+
 ```Objective-C
 /**
  *  请求通讯录的权限
@@ -65,8 +69,11 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##请求联系人列表
+
+## 请求联系人列表
+
 为Demo中是楼主自行构建的Model，因此代码就显得简略了好多，后面会附上CFRecord转模型的代码:
+
 ```Objective-C
 /**
  *  获取通讯录中的联系人
@@ -108,7 +115,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的姓名属性
+
+## 获取联系人的姓名属性
+
 为了让代码可读性更好一点，在进行转型的时候写了如下方法，是为了方便将CFStringRef通过桥接__bridge转型成NSString对象:
 ```Objective-C
 /**
@@ -147,7 +156,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的类型
+
+## 获取联系人的类型
+
 ```Objective-C
 /**
  *  获得联系人类型信息
@@ -170,7 +181,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的头像图片
+
+## 获取联系人的头像图片
+
 ```Objective-C
 /**
  *  获得联系人的头像图片
@@ -193,7 +206,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的电话信息
+
+## 获取联系人的电话信息
+
 ```Objective-C
 /**
  *  获得电话号码对象数组
@@ -225,7 +240,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的工作信息
+
+## 获取联系人的工作信息
+
 ```Objective-C
 /**
  *  获得工作的相关属性
@@ -242,7 +259,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的邮件信息
+
+## 获取联系人的邮件信息
+
 ```Objective-C
 /**
  *  获得Email对象的数组
@@ -274,7 +293,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 ```
 
 <br>
-##获取联系人的地址信息
+
+## 获取联系人的地址信息
+
 ```Objective-C
 /**
  *  获得Address对象的数组
@@ -318,7 +339,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的生日信息
+
+## 获取联系人的生日信息
+
 ```Objective-C
 /**
  *  根据属性key获得NSDate
@@ -367,7 +390,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的即时通信信息
+
+## 获取联系人的即时通信信息
+
 ```Objective-C
 /**
  *  获得即时通信账号相关信息
@@ -400,7 +425,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获得联系人的关联人信息
+
+## 获得联系人的关联人信息
+
 ```Objective-C
 /**
  *  获得联系人的关联人信息
@@ -431,7 +458,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的社交简介信息
+
+## 获取联系人的社交简介信息
+
 ```Objective-C
 /**
  *  获得联系人的社交简介信息
@@ -465,7 +494,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 }
 ```
 <br>
-##获取联系人的备注信息
+
+## 获取联系人的备注信息
+
 ```Objective-C
 //备注
 contactObject.note = [self contactProperty:kABPersonNoteProperty];               
@@ -477,14 +508,19 @@ contactObject.note = [self contactProperty:kABPersonNoteProperty];
 contactObject.creationDate = [self contactDateProperty:kABPersonCreationDateProperty];
 ```
 <br>
-##获取联系人的最近修改时间
+
+## 获取联系人的最近修改时间
+
 ```Objective-C
 //最近一次修改的时间
 contactObject.modificationDate = [self contactDateProperty:kABPersonModificationDateProperty];
 ```
 <br>
-##接收外界通讯录发生变化的方法
+
+## 接收外界通讯录发生变化的方法
+
 在初始化AddressBook的时候为它注册一个通知
+
 ```
 //创建一个AddressBook
 self.addressBook = ABAddressBookCreate();
@@ -501,6 +537,7 @@ ABAddressBookRegisterExternalChangeCallback(self.addressBook,  addressBookChange
 ```
 
 在外面自己写回调的方法，这个方法是外界的通讯录发生增删改查之后，再次回到此App的时候才会触发的方法
+
 ```C++
 void addressBookChangeCallBack(ABAddressBookRef addressBook, CFDictionaryRef info, void *context)
 {
