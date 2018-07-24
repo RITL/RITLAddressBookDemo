@@ -501,8 +501,9 @@ iOS6.0之后，苹果对于用户隐私就加强了，所有调用系统权限�
 //备注
 contactObject.note = [self contactProperty:kABPersonNoteProperty];               
 ```
-<br>
-##获取联系人的创建时间
+<br> 
+
+## 获取联系人的创建时间
 ```
 //创建时间
 contactObject.creationDate = [self contactDateProperty:kABPersonCreationDateProperty];
